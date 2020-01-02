@@ -4,6 +4,8 @@
 
 ## 簡易的流程介紹
 
+### 安裝
+
 1. 安裝Cocoapods
     
   ```no-highlight
@@ -32,6 +34,15 @@
   ```
   
 5. 執行透過pods產生出來的xcworkspace
+
+### 移除
+
+  ```
+  sudo gem install cocoapods-deintegrate cocoapods-clean
+  pod deintegrate
+  pod clean
+  rm Podfile
+  ```
   
 ## 其他的奇淫巧技
 
